@@ -3,7 +3,7 @@ A global event bus driven by a singlton event emitter class. Use this module to 
 
 ## Install
 ```
-npm install node-singleton-event
+npm install node-singleton-event -save
 ```
 
 ## How to use
