@@ -1,11 +1,9 @@
 # node-singleton-event
-A global event bus driven by a singlton event emitter class.
-If you require this module in your classes, you are able to use a global event bus.
+A global event bus driven by a singlton event emitter class. Use this module to hook something in other objects.
 
 ## Install
 ```
 npm install node-singleton-event
-
 ```
 
 ## How to use
