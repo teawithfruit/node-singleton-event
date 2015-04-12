@@ -14,13 +14,13 @@ Require it in every file where you want to communicate with another file.
 
 Say something:
 ```
-var singletonevent = require('singleton-event');
+var singletonevent = require('node-singleton-event');
 singletonevent.emit('talk', 'hello world');
 ```
 
 Receive something:
 ```
-var singletonevent = require('singleton-event');
+var singletonevent = require('node-singleton-event');
 singletonevent.on('talk', function(value) {
   console.log(value);
 });
