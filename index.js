@@ -1,5 +1,6 @@
 module.exports = function(){
 
+  var util = require('util');
   var events = require('events');
   var EventEmitter = events.EventEmitter;
 
@@ -12,7 +13,7 @@ module.exports = function(){
     EventEmitter.call(this);
   };
   
-  emitter.prototype.__proto__ = EventEmitter.prototype;
+  util.inherits(emitter, EventEmitter);
 
   return new emitter();
 }();
